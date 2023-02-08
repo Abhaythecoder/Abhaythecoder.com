@@ -32,7 +32,7 @@
 
         // Update the response text to thank the user
         response.innerHTML = `Fuck off , ${name}! You are ${age}, get a life.`;
-      };
+      });
     </script>
   </body>
 </html>

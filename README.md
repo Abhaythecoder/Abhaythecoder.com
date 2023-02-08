@@ -1,15 +1,19 @@
-
 <html>
+   
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
 
-<body>
-    <h1>THIS WEBSITE WAS CREATED BY ABHAY</h1>
-    <h2>NICE✌️✌️</h2>
-    <h3>this is the third line</h3>
-    <h4>this is the fourth lin</h4>
-    <h5>this is the fifth line</h5>
-    <h6>this is the sixth line</h6>
+    <body>
+        <h1>THIS WEBSITE WAS CREATED BY ABHAY</h1>
+        <h2>NICE✌️✌️</h2>
+        <h3>this is the third line</h3>
+        <h4>this is the fourth lin</h4>
+        <h5>this is the fifth line</h5>
+        <h6>this is the sixth line</h6>
 
-    <b>this is my very first website and <b> i am very excited</b> <br>
+        <b>this is my very first website and <b> i am very excited</b> <br>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Sed sit amet velit hendrerit, consequat neque ac,
@@ -41,6 +45,6 @@
          <a href="https://youtu.be/xvFZjo5PgG0" target="_blank"> click here</a> to buy drugs.  
          <img>
     </p>
-</body>
+    </body>
 
 </html>

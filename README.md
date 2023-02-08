@@ -2,11 +2,16 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Monkey Image</title>
+    <title>Name and Age Form</title>
   </head>
   <body>
-    <h1>Picture of a Monkey</h1>
-    <img src="![image](https://user-images.githubusercontent.com/88576691/217463567-f54f3c38-4836-4161-b38d-8f06a8de995e.png)
-" alt="A picture of a monkey">
+    <h1>Please enter your name and age</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age"><br><br>
+      <input type="submit" value="Submit">
+    </form>
   </body>
 </html>

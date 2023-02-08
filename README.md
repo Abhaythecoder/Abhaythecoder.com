@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -16,7 +15,7 @@
     <h5>this is the fifth line</h5>
     <h6>this is the sixth line</h6>
 
-    <b>this is my very first website and <b> i am very excited</b> <br>
+    <b>this is my very first website and. I am very excited</b> <br>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Sed sit amet velit hendrerit, consequat neque ac,

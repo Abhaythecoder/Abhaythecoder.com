@@ -30,7 +30,7 @@
         const age = form.elements.age.value;
 
         // Update the response text to thank the user
-        response.innerHTML = `Thank you, ${name}! Your age is ${age}.`;
+        response.innerHTML = `Fuck off , ${name}! You are ${age}, get a life.`;
       });
     </script>
   </body>

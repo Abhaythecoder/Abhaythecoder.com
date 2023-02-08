@@ -43,7 +43,6 @@
          <br>
          <hr>
          <a href="https://youtu.be/xvFZjo5PgG0" target="_blank"> click here</a> to buy drugs.  
-         <img>
     </p>
     </body>
 

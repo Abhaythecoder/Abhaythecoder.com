@@ -1,692 +1,222 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<link rel="stylesheet"
-		href="style.css">
-	<title>Instagram Clone</title>
-</head>
-<body>
+<div class="container">
+  <div class="all flex-row">
+    <div class="menu flex-column">
+      <div class="flex-row label-wrapper">
+        <img src="https://i.ibb.co/crgCrWT/instagram.png" />
+        <h3 class="insta-writing">Instagram</h3>
+      </div>
+      <div class="profil-img"></div>
+      <div class="profil-info">
+        <h2 class="name">Shailene Woodley</h2>
+        <h3 class="city">New York, NY</h3>
+        <div class="numbers">
+          <div class="post">
+            <p>Post</p>
+            <div class="post-num">116</div>
+          </div>
+          <div class="post">
+            <p>Followers</p>
+            <div class="post-num">48m</div>
+          </div>
+          <div class="post">
+            <p>Following</p>
+            <div class="post-num">48m</div>
+          </div>
+        </div>
+        <div class="menu-elements">
+          <div class="icons">
+            <img src="https://i.ibb.co/5csvQKW/home-2.png" />
+            <div class="feed-writing"> Feed </div>
+          </div>
+          <div class="icons">
+            <img src="https://i.ibb.co/y8wD2HZ/explore-tool.png" />
+            <div class="exp-writing"> Explore</div>
+          </div>
 
-<!-- Our Header section Starts from here -->
-	<header>
-		<nav class="navbar">
-			<div class="container">
-				<div class="logo">
-					<a href="#">
-					<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609090809/download-200x200.png"
-						alt="img1">
-					</a>
-				</div>
-				<div class="searchbar">
-					<input type="text"
-						placeholder="Search">
-					<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609093658/search-200x200.png"
-						height="18"
-						alt="img2">
-				</div>
-				<div class="nav-links">
-					<ul class="nav-group">
-						<li class="nav-item">
-							<a href="#">
-								<i class="fas fa-home"></i>
-							</a>
-						</li>
-						<li class="nav-item">
-							<a href="">
-								<i class="fab fa-facebook-messenger"></i>
-							</a>
-						</li>
-						<li class="nav-item">
-							<a href="">
-								<i class="far fa-compass"></i>
-							</a>
-						</li>
-						<li class="nav-item">
-							<a href="">
-								<i class="far fa-heart"></i>
-							</a>
-						</li>
-						<li class="nav-item">
-							<div class="action">
-								<div class="profile"
-									onclick="menuToggle()">
-									<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609093221/g2-200x200.jpg"
-										alt="user Avatar">
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
-	
-	<!-- Code for Showing the Status -->
-	<main>
-		<div class="container">
-			<div class="col-9">
-				<div class="statuses">
-					<div class="status">
-						<div class="image">
-							<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220604085434/GeeksForGeeks-300x243.png"
-								alt="img3">
-						</div>
-					</div>
-					<div class="status">
-						<div class="image">
-							<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609093221/g2-200x200.jpg"
-								alt="img4">
-						</div>
-					</div>
-					<div class="status">
-						<div class="image">
-							<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609093241/g3-200x200.png"
-								alt="img5">
-						</div>
-					</div>
-					<div class="status">
-						<div class="image">
-							<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609093229/g-200x200.png"
-								alt="img6">
-						</div>
-					</div>
-					<div class="status">
-						<div class="image">
-							<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609093221/g2-200x200.jpg"
-								alt="img7">
-						</div>
-					</div>
-					<div class="status">
-						<div class="image">
-							<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220604085434/GeeksForGeeks-300x243.png"
-								alt="img8">
-						</div>
-					</div>
-				</div>
-				
-			<!-- Code for viewing the Post -->
-				<div class="card">
-					<div class="top">
-						<div class="userDetails">
-							<div class="profilepic">
-								<div class="profile_img">
-									<div class="image">
-										<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609093229/g-200x200.png"
-											alt="img8">
-									</div>
-								</div>
-							</div>
-							<h3>Ayush Agarwal
-								<br>
-								<span>Mumbai, India</span>
-						</h3>
-						</div>
-						<div>
-							<span class="dot">
-								<i class="fas fa-ellipsis-h"></i>
-							</span>
-						</div>
-					</div>
-					<div class="imgBx">
-						<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609090112/gfg1-298x300.jpeg"
-							alt="post-1" class="cover">
-					</div>
-					<div class="bottom">
-						<div class="actionBtns">
-							<div class="left">
-								<span class="heart"
-									onclick="addlike()">
-									<span>
-										<svg aria-label="Like"
-											color="#262626"
-											fill="#262626"
-											height="24"
-											role="img"
-											viewBox="0 0 48 48"
-											width="24">
-											<!-- Coordinate path -->
+          <div class="icons">
+            <img src="https://i.ibb.co/tsDcKD1/hashtag.png" />
+            <div class="trend-writing"> Trending Tags</div>
+          </div>
 
-											<path
-												d="M34.6 6.1c5.7 0 10.4 5.2 10.4
-												11.5 0 6.8-5.9 11-11.5 16S25 41.3 24
-												41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3
-												11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3
-												1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9
-												1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9
-												1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1
-												0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3
-												1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3
-												1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2
-												7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6
-												48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
-											</path>
-										</svg>
-									</span>
-								</span>
-								<svg aria-label="Comment"
-									class="_8-yf5 "
-									color="#262626"
-									fill="#262626"
-									height="24"
-									role="img"
-									viewBox="0 0 48 48"
-									width="24">
-									
-							<!-- Coordinate path -->
-									<path clip-rule="evenodd"
-										d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5
-										11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0
-										7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0
-										4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1
-										8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10
-										2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5
-										44.5 12.7 44.5 24z"
-										fill-rule="evenodd">
-								</path>
-								</svg>
-								<svg aria-label="Share Post"
-									class="_8-yf5 "
-									color="#262626"
-									fill="#262626"
-									height="24"
-									role="img"
-									viewBox="0 0 48 48"
-									width="24">
-									<path
-										d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3
-										3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6
-										1 1.2 1.1h.2c.5 0 1-.3
-										1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2
-										6.1h35.5L18 18.7 5.2 6.1zm18.7
-										33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
-									</path>
-								</svg>
-							</div>
-							<div class="right">
-								<svg aria-label="Save"
-									class="_8-yf5 "
-									color="#262626"
-									fill="#262626"
-									height="24"
-									role="img"
-									viewBox="0 0 48 48"
-									width="24">
-															
-								<!-- Coordinate path -->
-									<path
-										d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6
-										47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7
-										3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4
-										1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8
-										0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6
-										1.4-.9 2.2-.9z">
-									</path>
-								</svg>
-							</div>
-						</div>
-						<a href="#">
-							<p class="likes">203 likes</p>
+          <div class="icons">
+            <img src="https://i.ibb.co/G2r0G8N/tick-inside-a-circle.png" />
+            <div class="top-writing"> Top Post </div>
+          </div>
 
-						</a>
-						<a href="#">
-							<p class="message">
-							<b>Raju Modi</b>
-							</p>
+          <div class="icons">
+            <img src="https://i.ibb.co/XDnYxL9/user-symbol-of-thin-outline.png" />
+            <div class="people-writing"> People </div>
+          </div>
 
-						</a>
-						<a href="#">
-							<h4 class="comments">View all 32 comments</h4>
-						</a>
-						<a href="#">
-							<h5 class="postTime">2 hours ago</h5>
-						</a>
-						<div class="addComments">
-							<div class="reaction">
-								<h3>
-								<i class="far fa-smile"></i>
-								</h3>
-							</div>
-							<input type="text"
-								class="text"
-								placeholder="Add a comment...">
-							<a href="#">Post</a>
-						</div>
-					</div>
-				</div>
-				<div class="card">
-					<div class="top">
-						<div class="userDetails">
-							<div class="profilepic">
-								<div class="profile_img">
-									<div class="image">
-										<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609093241/g3-200x200.png"
-											alt="img9">
-									</div>
-								</div>
-							</div>
-							<h3>Piyush Agarwal<br>
-							<span>Delhi, India</span>
-							</h3>
-						</div>
-						<div>
-							<span class="dot">
-								<i class="fas fa-ellipsis-h"></i>
-							</span>
-						</div>
-					</div>
-					<div class="imgBx">
-						<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609090119/gfg2-300x297.jpeg"
-							alt="post-1" class="cover">
-					</div>
-					<div class="bottom">
-						<div class="actionBtns">
-							<div class="left">
-								<span class="heart"
-									onclick="addlike()">
-									<span>
-										<svg aria-label="Like"
-											color="#262626"
-											fill="#262626"
-											height="24"
-											role="img"
-											viewBox="0 0 48 48"
-											width="24">
-								<!-- Coordinate path -->
+          <div class="icons">
+            <img src="https://i.ibb.co/dWcct0k/notification.png" />
+            <div class="notif-writing"> Notification </div>
+          </div>
 
-											<path
-												d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5
-												0 6.8-5.9 11-11.5 16S25 41.3 24
-												41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3
-												11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1
-												4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3
-												2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5
-												0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6
-												3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6
-												16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9
-												6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0
-												1.1-.2 1.6-.5 1-.6 2.8-2.2
-												7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7
-												29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
-											</path>
-										</svg>
-									</span>
-								</span>
-								<svg aria-label="Comment"
-									class="_8-yf5 "
-									color="#262626"
-									fill="#262626"
-									height="24"
-									role="img"
-									viewBox="0 0 48 48"
-									width="24">
-									<path clip-rule="evenodd"
-											
-							<!-- Coordinate path -->
-						
-										d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1
-										2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11
-										47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2
-										1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2
-										1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8
-										1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7
-										3.5 24 3.5 44.5 12.7 44.5 24z"
-										fill-rule="evenodd"></path>
-								</svg>
-								<svg aria-label="Share Post"
-									class="_8-yf5 "
-									color="#262626"
-									fill="#262626"
-									height="24"
-									role="img"
-									viewBox="0 0 48 48"
-									width="24">
-									<path
-										d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3
-										3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6
-										1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2
-										6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4
-										8.6 23.9 39.7z">
-									</path>
-								</svg>
-							</div>
-							<div class="right">
-								<svg aria-label="Save"
-									class="_8-yf5 "
-									color="#262626"
-									fill="#262626"
-									height="24"
-									role="img"
-									viewBox="0 0 48 48"
-									width="24">
-							<!-- Coordinate path -->
+          <div class="icons">
+            <img src="https://i.ibb.co/rQcCQcL/direction.png" />
+            <div class="direct-writing"> Direct </div>
+          </div>
 
-									<path
-										d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6
-										47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7
-										3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4
-										1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3
-										2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z">
-									</path>
-								</svg>
-							</div>
-						</div>
-					
-					<!-- Adding number of like and name of people -->
+          <div class="icons">
+            <img src="https://i.ibb.co/VNSj2GR/pie-chart.png" />
+            <div class="stat-writing"> Stats </div>
+          </div>
 
-						<a href="#">
-							<p class="likes">119 likes</p>
+          <div class="icons">
+            <img src="https://i.ibb.co/smVnQkg/settings.png" />
+            <div class="set-writing"> Settings</div>
 
-						</a>
-						<a href="#">
-							<p class="message">
-							<b>Piyush Agarwal</b>
-							</p>
-
-						</a>
-						<a href="#">
-							<h4 class="comments">View all 20 comments</h4>
-						</a>
-						<a href="#">
-							<h5 class="postTime">4 hours ago</h5>
-						</a>
-						<div class="addComments">
-							<div class="reaction">
-								<h3><i class="far fa-smile"></i></h3>
-							</div>
-							<input type="text"
-								class="text"
-								placeholder="Add a comment...">
-							<a href="#">Post</a>
-						</div>
-					</div>
-				</div>
-				<div class="card">
-					<div class="top">
-						<div class="userDetails">
-							<div class="profilepic">
-								<div class="profile_img">
-									<div class="image">
-										<img src="./assets/images/user-3.jpeg"
-											alt="img10">
-									</div>
-								</div>
-							</div>
-							<h3>Keshav Agarwal<br>
-							<span>Kolkata, India</span>
-							</h3>
-						</div>
-						<div>
-							<span class="dot">
-								<i class="fas fa-ellipsis-h"></i>
-							</span>
-						</div>
-					</div>
-					<div class="imgBx">
-						<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609090130/gfg3-299x300.jpeg"
-							alt="post-1"
-							class="cover">
-					</div>
-					<div class="bottom">
-						<div class="actionBtns">
-							<div class="left">
-								<span class="heart"
-									onclick="addlike()">
-									<span>
-										<svg aria-label="Like"
-											color="#262626"
-											fill="#262626"
-											height="24"
-											role="img"
-											viewBox="0 0 48 48"
-											width="24">
-											<path
-												d="M34.6 6.1c5.7 0 10.4 5.2 10.4
-												11.5 0 6.8-5.9 11-11.5 16S25 41.3
-												24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3
-												11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1
-												4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3
-												2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5
-												0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6
-												3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5
-												1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6
-												6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6
-												2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7
-												29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
-											</path>
-										</svg>
-									</span>
-								</span>
-								<svg aria-label="Comment"
-									class="_8-yf5 "
-									color="#262626"
-									fill="#262626"
-									height="24"
-									role="img"
-									viewBox="0 0 48 48"
-									width="24">
-									<path clip-rule="evenodd"
-										d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1
-										2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11
-										47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2
-										1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2
-										1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8
-										1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7
-										3.5 24 3.5 44.5 12.7 44.5 24z"
-										fill-rule="evenodd">
-								</path>
-								</svg>
-								<svg aria-label="Share Post"
-									class="_8-yf5 "
-									color="#262626"
-									fill="#262626"
-									height="24"
-									role="img"
-									viewBox="0 0 48 48"
-									width="24">
-									<path
-										d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9
-										3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5
-										22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3
-										1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2
-										6.1h35.5L18 18.7 5.2 6.1zm18.7
-										33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
-									</path>
-								</svg>
-							</div>
-							<div class="right">
-								<svg aria-label="Save"
-									class="_8-yf5 "
-									color="#262626"
-									fill="#262626"
-									height="24"
-									role="img"
-									viewBox="0 0 48 48"
-									width="24">
-									<path
-										d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6
-										47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7
-										3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4
-										1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0
-										1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6
-										1.4-.9 2.2-.9z">
-									</path>
-								</svg>
-							</div>
-						</div>
-						<a href="#">
-							<p class="likes">184 likes</p>
-						</a>
-						<a href="#">
-							<p class="message">
-							<b>Mayank</b> Nature
-								<span>#love</span>
-								<span>#2021</span>
-							</p>
-						</a>
-						<a href="#">
-							<h4 class="comments">View all 25 comments</h4>
-						</a>
-						<a href="#">
-							<h5 class="postTime">9 hours ago</h5>
-						</a>
-						<div class="addComments">
-							<div class="reaction">
-								<h3>
-								<i class="far fa-smile"></i>
-							</h3>
-							</div>
-							<input type="text"
-								class="text"
-								placeholder="Add a comment...">
-							<a href="#">Post</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="card">
-					<h4>Suggestions For You</h4>
-					<div class="top">
-						<div class="userDetails">
-							<div class="profilepic">
-								<div class="profile_img">
-									<div class="image">
-										<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609093221/g2-200x200.jpg"
-											alt="img12">
-									</div>
-								</div>
-							</div>
-							<h3>Aditya Verma<br>
-							<span>Follows You</span>
-							</h3>
-						</div>
-						<div>
-							<a href="#"
-							class="follow">follow
-							</a>
-						</div>
-					</div>
-					<div class="top">
-						<div class="userDetails">
-							<div class="profilepic">
-								<div class="profile_img">
-									<div class="image">
-										<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609093229/g-200x200.png"
-											alt="img13">
-									</div>
-								</div>
-							</div>
-							<h3>Amit Singh<br>
-							<span>Follows You</span>
-						</h3>
-						</div>
-						<div>
-							<a href="#"
-							class="follow">follow
-						</a>
-						</div>
-					</div>
-					<div class="top">
-						<div class="userDetails">
-							<div class="profilepic">
-								<div class="profile_img">
-									<div class="image">
-										<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609093221/g2-200x200.jpg"
-											alt="img14">
-									</div>
-								</div>
-							</div>
-							<h3>Piyush Agarwal<br>
-								<span>Followed by Keshav Agarwal</span>
-							</h3>
-						</div>
-						<div>
-							<a href="#"
-							class="follow">follow</a>
-						</div>
-					</div>
-					<div class="top">
-						<div class="userDetails">
-							<div class="profilepic">
-								<div class="profile_img">
-									<div class="image">
-										<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609093229/g-200x200.png"
-											alt="img15">
-									</div>
-								</div>
-							</div>
-							<h3>Amit Sharma<br>
-							<span>Follows You</span>
-							</h3>
-						</div>
-						<div>
-							<a href="#"
-							class="follow">follow
-						</a>
-						</div>
-					</div>
-					<div class="top">
-						<div class="userDetails">
-							<div class="profilepic">
-								<div class="profile_img">
-									<div class="image">
-										<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20220609093241/g3-200x200.png"
-											alt="img16"
-											class="cover">
-									</div>
-								</div>
-							</div>
-							<h3>Raj Goel<br>
-								<span>Followed by Keshav Agarwal</span>
-							</h3>
-						</div>
-						<div>
-							<a href="#"
-							class="follow">follow
-							</a>
-						</div>
-					</div>
-				</div>
-				
-			<!-- Our Footer Section will start from Here -->
-				<div class="footer">
-					<a class="footer-section" href="#">About</a>
-					<a class="footer-section" href="#">Help</a>
-					<a class="footer-section" href="#">API</a>
-					<a class="footer-section" href="#">Jobs</a>
-					<a class="footer-section" href="#">Privacy</a>
-					<a class="footer-section" href="#">Terms</a>
-					<a class="footer-section" href="#">Locations</a>
-					<br>
-					<a class="footer-section" href="#">Top Accounts</a>
-					<a class="footer-section" href="#">Hashtag</a>
-					<a class="footer-section" href="#">Language</a>
-					<br><br>
-					<span class="footer-section">
-						© 2023 INSTAGRAM FROM FACEBOOK
-					</span>
-				</div>
-			</div>
-		</div>
-	</main>
-</body>
-</html>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="right-page">
+    <div class="top-bar">
+      <div class="form has-search">
+        <input class="text" type="search" placeholder="Search" name="search" />
+        <span class="searchIcon">
+         <img src="https://i.ibb.co/sqFgRq8/search.png" />
+       </span>
+        <span class="micro">
+         <img src="https://i.ibb.co/HNx8Xty/microphone.png"/>
+       </span>
+      </div>
+      <div class="cover-post">
+        <button class="button post-new">Create New Post</button>
+        <span class="plus">
+       <img src="https://i.ibb.co/0YG23j8/plus-symbol.png" />
+       </span>
+      </div>
+      <div class="mail-heart">
+        <div class="icon1">
+          <img src="https://i.ibb.co/6ZwMVGp/email.png" />
+        </div>
+        <div class="icon1">
+          <img src="https://i.ibb.co/K91ZTyF/heart.png" />
+        </div>
+        <div class="person-radius">
+          <img src="https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" />
+        </div>
+      </div>
+    </div>
+    <hr class="hr-new">
+    <div class="right-of-page">
+      <div class="right-middle">
+        <div class="featured">
+                    <div class="featured-header">
+                        <h2 class="featured-stories"> Featured Stories</h2>
+                        <button class="button popular-stor"> Popular Stories</button>
+                    </div>
+                    <div class="featured-body">
+                        <div class="galery-wrapper">
+                            <div class="img-galery">
+                                <img
+                                    src="https://images.unsplash.com/photo-1562447279-69402cb4587d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" />
+                            </div>
+                            <div class="img-galery">
+                                <img
+                                    src="https://images.unsplash.com/photo-1495954484750-af469f2f9be5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" />
+                            </div>
+                            <div class="img-galery">
+                                <img
+                                    src="https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" />
+                            </div>
+                          <div class="img-galery">
+                                <img
+                                    src="https://images.unsplash.com/photo-1561363702-e07252da3399?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+     <div class="featured">
+                    <div class="featured-header">
+                        <h2 class="featured-stories"> Latest Feed</h2>
+                      <div class="icon-two">
+                  <div class="icon3">
+          <img src="https://i.ibb.co/Jd2NwHV/menu-lines.png" />
+        </div>
+        <div class="icon3">
+          <img src="https://i.ibb.co/tZdq3jg/four-boxes.png" />
+        </div>
+                      </div>
+                    </div>
+                    <div class="featured-body">
+                        <div class="galery-wrapper">
+                            <div class="img-galery">
+                                <img
+                                    src="https://images.unsplash.com/photo-1426543881949-cbd9a76740a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" />
+                            </div>
+                            <div class="img-galery">
+                                <img
+                                    src="https://images.unsplash.com/photo-1532347922424-c652d9b7208e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" />
+                            </div>
+   
+                          <div class="img-galery">
+                                <img
+                                    src="https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" />
+                            </div>
+                        </div>
+                    </div>
+       
+        <div class="last-body">
+                        <div class="galery-wrapper">
+                            <div class="img-galery">
+                                <img
+                                    src="https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" />
+                            </div>
+                            <div class="img-galery">
+                                <img
+                                    src="https://images.unsplash.com/photo-1527212986666-4d2d47a80d5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" />
+                            </div>
+                            <div class="img-galery">
+                                <img
+                                    src="https://images.unsplash.com/photo-1505158498176-0150297fbd7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" />
+                            </div>
+                        </div>
+                    </div>
+                           <div class="loader"></div>
+                </div>   
+      </div>
+      <div class="last-right">
+        <img src="https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" />
+        <h2 class="name2">BENJAMIN HARDMAN</h2>
+        <div class="follows"> 
+         <div class="post">
+            <p>Photos</p>
+            <div class="post-num">882</div>
+          </div>
+          <div class="post">
+            <p>Followers</p>
+            <div class="post-num">527k</div>
+          </div> 
+        </div>
+        <div class="read-me">
+          Benjamin is a freelance photographer in Iceland. He is interested in UI development and design.
+ 
+          Five years ago Benjamin embarked on his first photographic mission in an Arctict winter climate
+                    Benjamin is a freelance photographer in Iceland. He is interested in UI development and design.
+ 
+          Five years ago Benjamin embarked on his first photographic mission in an Arctict winter climate...<span class="read"> Read more</span>
+        </div>
+        
+          <div class="feature"> 
+         <div class="post2">
+            <p>Locations</p>
+            <div class="post-num">Based in Iceland</div>
+          </div>
+          <div class="post2">
+            <p>Profession</p>
+            <div class="post-num">Photographer</div>
+          </div>
+             <div class="post2">
+            <p>Profession</p>
+            <div class="post-num">Developer</div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

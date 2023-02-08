@@ -13,5 +13,25 @@
       <input type="number" id="age" name="age"><br><br>
       <input type="submit" value="Submit">
     </form>
+    <br><br>
+    <p id="response"></p>
+
+    <script>
+      // Get the form and response element
+      const form = document.querySelector("form");
+      const response = document.querySelector("#response");
+
+      // Listen for form submission
+      form.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        // Get the values of the name and age inputs
+        const name = form.elements.name.value;
+        const age = form.elements.age.value;
+
+        // Update the response text to thank the user
+        response.innerHTML = `Thank you, ${name}! Your age is ${age}.`;
+      });
+    </script>
   </body>
 </html>

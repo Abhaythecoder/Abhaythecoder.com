@@ -22,7 +22,8 @@
       const response = document.querySelector("#response");
 
       // Listen for form submission
-      form.addEventListener("submit", function(event) {
+      form.addEventListener("submit", function(event)
+      {
         event.preventDefault();
 
         // Get the values of the name and age inputs
@@ -31,7 +32,7 @@
 
         // Update the response text to thank the user
         response.innerHTML = `Fuck off , ${name}! You are ${age}, get a life.`;
-      });
+      };
     </script>
   </body>
 </html>

@@ -1,33 +1,12 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Attractive Website</title>
-    <style>
-      /* Add your custom CSS styles here */
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f2f2f2;
-      }
-      header {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-      }
-      header h1 {
-        margin: 0;
-      }
-      section {
-        padding: 40px;
-      }
-    </style>
+    <title>Monkey Image</title>
   </head>
   <body>
-    <header>
-      <h1>My Attractive Website</h1>
-    </header>
-    <section>
-      <p>Welcome to my website!</p>
-    </section>
+    <h1>Picture of a Monkey</h1>
+    <img src="![image](https://user-images.githubusercontent.com/88576691/217463567-f54f3c38-4836-4161-b38d-8f06a8de995e.png)
+" alt="A picture of a monkey">
   </body>
 </html>

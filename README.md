@@ -36,3 +36,27 @@
     </script>
   </body>
 </html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Joke Generator</title>
+  </head>
+  <body>
+    <h1>Random Joke</h1>
+    <p id="joke"></p>
+
+    <script>
+      const jokes = [
+        "Why did the tomato turn red? Because it saw the salad dressing!",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "Why was the math book sad? Because it had too many problems."
+      ];
+
+      const randomJoke = jokes[Math.floor(Math.random() * jokes.length)];
+
+      document.getElementById("joke").innerHTML = randomJoke;
+    </script>
+  </body>
+</html>
+

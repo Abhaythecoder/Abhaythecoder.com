@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>THE WORLD IS IN GREAT TROUBLE</title> <br>

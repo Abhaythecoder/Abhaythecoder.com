@@ -14,6 +14,6 @@ Individuals can make a difference by reducing their own energy use, eating a mor
 It is clear that the future of our planet is at stake, and the time to act is now. We must take serious and meaningful action to create a sustainable future and          preserve the health of our planet for future generations. The choices we make today will determine the fate of the world tomorrow, so let us choose wisely and           work together to build a better, more sustainable future.
 </p>
     <hr>
-    <p>Learn more by visiting <a href="https://youtu.be/xvFZjo5PgG0">Click here to support </a>.</p>
+    <p>Click<a href="https://youtu.be/xvFZjo5PgG0"> here</a> to support .</p>
   </body>
 </html>

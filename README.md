@@ -6,7 +6,8 @@
     </head>
 
     <body>
-               <b>The earth is going throught some really hard time</b> <br>
+               <b>The earth is going throught some really hard time</b> 
+            <br>
     <p>
               The world is facing a multitude of environmental challenges, from rising global temperatures to declining biodiversity, and it is imperative that we take               action now to ensure a sustainable future. Climate change is already having devastating impacts on communities around the world, causing more frequent                 and intense natural disasters, reducing agricultural productivity, and exacerbating poverty and inequality.
 
